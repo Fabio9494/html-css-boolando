@@ -17,7 +17,7 @@ header{
 }
 
 .row-header{
-    width: 85%;
+    width: 80%;
     display: flex;
     padding-left: 20px;
 }
@@ -52,7 +52,8 @@ li{
 }
 
 .row{
-    width: 90%;
+    width: 85%;
+    min-width: 420px;
     display: flex;
     gap: 20px 20px;
     flex-wrap: wrap;
@@ -70,7 +71,7 @@ footer{
 }
 
 .row-footer{
-    width: 85%;
+    width: 80%;
     display: flex;
     padding-top: 25px;
 }
@@ -97,7 +98,7 @@ img{
 }
 
 .font-size-10{
-    font-size: 6px;
+    font-size: 10px;
 }
 
 .color-white{
@@ -120,8 +121,9 @@ img{
     background-color: red;
     padding: 5px;
     color: white;
+    width: 30px;
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
 }
 
 .sustainability{
@@ -129,8 +131,13 @@ img{
     padding: 5px;
     color: white;
     position: absolute;
-    bottom: 50px;
-    left: 27px;
+    width: 65px;
+    bottom: 100px;
+    left: 35px;
+}
+
+.description{
+    position: static;
 }
 
 .left-0{ 
