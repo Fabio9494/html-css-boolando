@@ -115,6 +115,10 @@ img{
     padding: 5px 10px;
 }
 
+.red-heart{
+    color: red;
+}
+
 .conteiner{
     width: 100%;
     padding: 20px;
@@ -159,6 +163,25 @@ img{
 .culumn{
     flex-direction: column;
 }
+
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display:block;
+}
+
+.product:hover .hidden{
+    display: block;
+}
+
+.product:hover .show{
+    display: none;
+}
+
+
 
 
 
