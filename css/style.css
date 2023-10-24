@@ -6,7 +6,33 @@
 
 header{
     background-color: #FF6900;
-    height: 100px;
+}
+
+.logo{
+    width: 100px;
+    padding: 10px;
+}
+
+.row-header{
+    width: 100%;
+    display: flex;
+}
+
+.col-header{
+    width: calc(100%/3);
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: sans-serif;
+}
+
+li{
+    padding: 2px;
 }
 
 footer{
@@ -32,3 +58,16 @@ footer{
     background-color: #DCDCDC;
     height: 400px;
 }
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.aling-items-center{
+    align-items: center;
+}
+
+.justify-content-end{
+    justify-content: flex-end;
+}
+
