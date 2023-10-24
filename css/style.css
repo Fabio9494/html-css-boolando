@@ -6,6 +6,8 @@
 
 header{
     background-color: #FF6900;
+    display: flex;
+    justify-content: center;
 }
 
 .logo{
@@ -14,7 +16,7 @@ header{
 }
 
 .row-header{
-    width: 100%;
+    width: 80%;
     display: flex;
 }
 
@@ -29,6 +31,7 @@ ul{
     flex-direction: row;
     color: white;
     font-family: sans-serif;
+    font-size: 10px;
 }
 
 li{
@@ -40,14 +43,21 @@ footer{
     height: 100px;
 }
 
+img{
+    width: 100%;
+}
+
 .conteiner{
     width: 100%;
     padding: 20px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+
 }
 
 .row{
-    width: 100%;
+    width: 85%;
     display: flex;
     gap: 20px 20px;
     flex-wrap: wrap;
@@ -55,8 +65,6 @@ footer{
 
 .col-33{
     width: calc(100% /3  - 20px);
-    background-color: #DCDCDC;
-    height: 400px;
 }
 
 .justify-content-center{
