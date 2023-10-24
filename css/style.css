@@ -47,6 +47,56 @@ img{
     width: 100%;
 }
 
+.sans-serif{
+    font-family: sans-serif;
+}
+
+.font-size-10{
+    font-size: 6px;
+}
+
+.color-red{
+    color: red;
+}
+
+.line-through{
+    text-decoration: line-through;
+  }
+
+.product{
+    position: relative;
+}
+
+.price{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+}
+
+.sustainability{
+    background-color: green;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 27px;
+}
+
+.left-0{ 
+    left: 0px;
+}
+
+.heart{
+    background-color: white;
+    position: absolute;
+    font-size: 20px;
+    right: 0px;
+    top: 10px;
+    padding: 5px 10px;
+}
+
 .conteiner{
     width: 100%;
     padding: 20px;
