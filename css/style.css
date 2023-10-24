@@ -11,7 +11,8 @@ header{
 }
 
 .logo{
-    width: 100px;
+    width: 120px;
+    height: 40px;
     padding: 10px;
 }
 
@@ -40,6 +41,27 @@ li{
     padding-top: 5px;
 }
 
+.conteiner{
+    width: 100%;
+    padding: 20px;
+    padding-left: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.row{
+    width: 90%;
+    display: flex;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100% /3  - 20px);
+}
+
 footer{
     background-color: #1A1A1A;
     display: flex;
@@ -50,6 +72,7 @@ footer{
 .row-footer{
     width: 85%;
     display: flex;
+    padding-top: 25px;
 }
 
 .col-footer{
@@ -57,8 +80,16 @@ footer{
     display: flex;
 }
 
+i{
+    margin: 20px 0px 20px 5px;
+}
+
 img{
     width: 100%;
+}
+
+.margin-right-10{
+    margin-right: 10px;
 }
 
 .sans-serif{
@@ -117,27 +148,6 @@ img{
 
 .red-heart{
     color: red;
-}
-
-.conteiner{
-    width: 100%;
-    padding: 20px;
-    padding-left: 50px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-
-}
-
-.row{
-    width: 90%;
-    display: flex;
-    gap: 20px 20px;
-    flex-wrap: wrap;
-}
-
-.col-33{
-    width: calc(100% /3  - 20px);
 }
 
 .justify-content-center{
