@@ -8,6 +8,10 @@ header{
     background-color: #FF6900;
     display: flex;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
 }
 
 .logo{
@@ -48,6 +52,7 @@ li{
     background-color: white;
     display: flex;
     justify-content: center;
+    padding-top: 80px;
 
 }
 
@@ -153,10 +158,6 @@ img{
     padding: 5px 10px;
 }
 
-.red-heart{
-    color: red;
-}
-
 .justify-content-center{
     justify-content: center;
 }
@@ -196,6 +197,10 @@ img{
 
 .product:hover .show{
     display: none;
+}
+
+.heart:hover{
+    color: red;
 }
 
 
